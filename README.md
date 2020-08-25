@@ -39,7 +39,7 @@
 ```
 
 
-+ หมายถึง มี 1 หรือมากกว่า 1 ตัว
+\+ หมายถึง มี 1 หรือมากกว่า 1 ตัว
 ```ruby
 let difficultSpelling = "Missssissippi";
 let myRegex = /s+/g; 
