@@ -23,4 +23,21 @@
 หรือแบบนี้
 
 
-/[a-z0-9]/ig; 
+/[a-z0-9]/ig; = a-z 0-9 พิมพ์เล็กพิมพ์ใหญ่
+
+
+^ คือตัวที่ถูกระบุไว้จะไม่ match
+
+
+/[^0-9 .]/gi; = 
+```ruby
+  let quoteSample = "3 blind mice.";
+  let myRegex = /[^0-9 .]/gi; // Change this line
+  let result = quoteSample.match(myRegex); // Change this line
+  console.log(result)
+  [ 'b', 'l', 'i', 'n', 'd', 'm', 'i', 'c', 'e' ]
+
+```
+
+
+
