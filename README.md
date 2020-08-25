@@ -32,8 +32,8 @@
 /[^0-9 .]/gi; = 
 ```ruby
   let quoteSample = "3 blind mice.";
-  let myRegex = /[^0-9 .]/gi; // Change this line
-  let result = quoteSample.match(myRegex); // Change this line
+  let myRegex = /[^0-9 .]/gi; // /g /i เพื่อ เอามากกว่า1 และ พิมพ์เล็กพิมพ์ใหญ่
+  let result = quoteSample.match(myRegex);
   console.log(result)
   [ 'b', 'l', 'i', 'n', 'd', 'm', 'i', 'c', 'e' ]
 
